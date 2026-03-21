@@ -1,0 +1,5 @@
+streamlit
+numpy
+faiss-cpu
+huggingface_hub
+openai
