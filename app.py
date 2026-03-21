@@ -396,7 +396,7 @@ if "chat_data" not in st.session_state:
 # HEADER
 # --------------------------------------------------
 
-st.markdown('<div class="main-title">AI Assist</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">Digimate</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">Ask questions from your subject memory in a chat-style interface.</div>', unsafe_allow_html=True)
 
 if not HF_TOKEN:
