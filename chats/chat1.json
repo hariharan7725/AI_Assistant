@@ -1,13 +1,6 @@
 {
   "chat_id": "chat1",
   "messages": [
-    {
-      "question": "what is a Relation",
-      "answer": "In the context of DBMS, a relation is a set of tuples (rows) that are related to each other through a common set of attributes (columns). It is a fundamental concept in relational databases, where data is organized into tables with well-defined structures. A relation is characterized by the following properties:\n\n- Each attribute has a unique name.\n- Each attribute has a unique domain (set of possible values).\n- Each tuple is unique, with no duplicate values.\n- The order of tuples and attributes does not matter.\n- The relation schema is defined by the set of attributes.\n\nIn essence, a relation is a structured collection of data that represents a specific entity or relationship in the database."
-    },
-    {
-      "question": "Define Process Management in 100 words",
-      "answer": "Process Management is a crucial component of Operating Systems (OS) that deals with the creation, execution, synchronization, communication, and termination of processes. It involves managing the system resources allocated to each process, ensuring efficient use of CPU time, memory, and other system resources. Process Management also includes handling process scheduling, context switching, and inter-process communication (IPC) to enable multiple processes to run concurrently and share resources. Effective Process Management enables the OS to provide a stable and efficient environment for running multiple applications and tasks simultaneously. It is essential for multitasking operating systems."
-    }
+    
   ]
 }
