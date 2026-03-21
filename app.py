@@ -12,7 +12,7 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 from openai import OpenAI
 
-st.write("HF token loaded:", bool(st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))))
+
 # --------------------------------------------------
 # CONFIG
 # --------------------------------------------------
@@ -112,7 +112,7 @@ div[data-testid="stChatInput"] textarea {
 # --------------------------------------------------
 # TOKEN
 # --------------------------------------------------
-
+st.write("HF token loaded:", bool(st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))))
 HF_TOKEN = st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))
 
 # --------------------------------------------------
