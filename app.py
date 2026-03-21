@@ -287,6 +287,7 @@ def get_answer(question):
     start_time = time.time()
 
     try:
+        st.write("HF token loaded:", bool(st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))))
         gen_client = get_gen_client()
         if gen_client is None:
             return "HF_TOKEN is missing. Set it first."
