@@ -112,10 +112,12 @@ div[data-testid="stChatInput"] textarea {
 # TOKEN
 # --------------------------------------------------
 
-import os
-import streamlit as st
+# import os
+# import streamlit as st
 
-HF_TOKEN = st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))
+# HF_TOKEN = st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))
+
+HF_TOKEN = "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"
 
 # --------------------------------------------------
 # HELPERS
