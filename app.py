@@ -112,8 +112,11 @@ div[data-testid="stChatInput"] textarea {
 # --------------------------------------------------
 # TOKEN
 # --------------------------------------------------
-st.write("HF token loaded:", bool(st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))))
 HF_TOKEN = st.secrets.get("HF_TOKEN", os.getenv("HF_TOKEN"))
+
+if not HF_TOKEN:
+    st.error("HF_TOKEN is missing. Please add it in Streamlit Cloud Secrets.")
+    st.stop()
 
 # --------------------------------------------------
 # HELPERS
