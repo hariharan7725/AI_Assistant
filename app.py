@@ -5,7 +5,7 @@ import re
 import time
 import json
 import pickle
-import faiss-cpu
+import faiss
 import numpy as np
 import streamlit as st
 
